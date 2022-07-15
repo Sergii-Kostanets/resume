@@ -264,7 +264,7 @@ body {
 }
 
 .telegram {
-  background: url(img/telegram-icon-2.png) no-repeat 50% 50%;
+  background: url(/img/telegram-icon-2.png) no-repeat 50% 50%;
   display: block;
   width: 25px;
   height: 25px;
@@ -272,7 +272,7 @@ body {
 }
 
 .telegram:hover {
-  background: url(img/telegram-icon-1.png) no-repeat 50% 50%;
+  background: url(/img/telegram-icon-1.png) no-repeat 50% 50%;
 }
 
 .contacts-type {
