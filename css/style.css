@@ -1,4 +1,10 @@
-body {
+*,
+ *::after,
+ *::before {
+   box-sizing: border-box;
+}
+
+ body {
   font-family: "Montserrat", sans-serif;
   background-color: #f5f7fa;
 }
@@ -265,44 +271,44 @@ body {
 
 .telegram {
   background: url(/img/telegram-icon-1.png) no-repeat 50% 50%;
-  background-size: 25px 25px;
+  background-size: 21px 21px;
   display: block;
-  width: 25px;
-  height: 25px;
-  margin-left: 10px;
+  width: 21px;
+  height: 21px;
+  margin-left: 5px;
 }
 
 .telegram:hover {
   background: url(/img/telegram-icon-2.png) no-repeat 50% 50%;
-  background-size: 25px 25px;
+  background-size: 21px 21px;
 }
 
 .whatsapp {
   background: url(/img/whatsapp-icon-1.png) no-repeat 50% 50%;
-  background-size: 25px 25px;
+  background-size: 21px 21px;
   display: block;
-  width: 25px;
-  height: 25px;
-  margin-left: 10px;
+  width: 21px;
+  height: 21px;
+  margin-left: 5px;
 }
 
 .whatsapp:hover {
   background: url(/img/whatsapp-icon-2.png) no-repeat 50% 50%;
-  background-size: 25px 25px;
+  background-size: 21px 21px;
 }
 
 .viber {
   background: url(/img/viber-icon-1.png) no-repeat 50% 50%;
-  background-size: 25px 25px;
+  background-size: 21px 21px;
   display: block;
-  width: 25px;
-  height: 25px;
-  margin-left: 10px;
+  width: 21px;
+  height: 21px;
+  margin-left: 5px;
 }
 
 .viber:hover {
   background: url(/img/viber-icon-2.png) no-repeat 50% 50%;
-  background-size: 25px 25px;
+  background-size: 21px 21px;
 }
 
 .contacts-type {
@@ -347,4 +353,54 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #ffffff;
+}
+
+/* Adaptive */
+
+@media(max-width: 1200px) {
+  .main-conteiner {
+    display: block;
+    width: 100%;
+  }
+  .main-content {
+    width: 100%;
+  }
+  .sidebar {
+    width: 100%;
+    display: flex;
+  }
+  .my-photo {
+    width: 300px;
+    margin-left: 40px;
+  }
+  .contacts {
+    width: 427px;
+    margin-left: 40px;
+  }
+  .tech-skills,
+  .soft-skills {
+    margin-left: 20px;
+    width: 200px;
+  }
+  .soft-skills {
+    margin-right: 10px;
+  }
+}
+
+@media(max-width: 947px) {
+  .sidebar {
+    display: block;
+  }
+  .contacts,
+  .tech-skills,
+  .soft-skills {
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+}
+
+@media(max-width: 800px) {
+  .my-courses {
+    width: 90%;
+  }
 }
