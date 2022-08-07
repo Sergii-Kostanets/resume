@@ -68,20 +68,24 @@
   color: #595959;
 }
 
-/* My courses */
+/* My certificates */
 
-.my-courses {
+.my-certificates,
+.my-projects {
   margin-bottom: 50px;
 }
 
-.my-courses-list {
+.my-certificates-list,
+.my-projects-list {
   counter-reset: num;
   padding: 0 0 0 2px;
   text-align: left;
 }
 
-.my-courses-item,
-.my-courses-bracket {
+.my-certificates-item,
+.my-projects-item,
+.my-certificates-bracket,
+.my-projects-bracket {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -90,21 +94,26 @@
   list-style-type: none;
 }
 
-.my-courses-item::before {
+.my-certificates-item::before,
+.my-projects-item::before {
   content: counter(num) ". ";
   counter-increment: num;
 }
 
-.my-courses-text {
+.my-certificates-text,
+.my-projects-text {
   margin-left: 10px;
 }
 
-.my-courses-text-first {
+.my-certificates-text-first,
+.my-projects-text-first {
   margin-left: 13px;
 }
 
-.my-courses-text,
-.my-courses-link {
+.my-certificates-text,
+.my-projects-text,
+.my-certificates-link,
+.my-projects-link {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -112,7 +121,8 @@
   color: #595959;
 }
 
-.my-courses-link:hover {
+.my-certificates-link:hover,
+.my-projects-link:hover {
   color: #000000;
 }
 
@@ -400,7 +410,60 @@
 }
 
 @media(max-width: 800px) {
-  .my-courses {
-    width: 90%;
+.main-content {
+  padding: 40px 10px 30px 10px;
+}
+.about-me-description {
+  width: 100%;
+}
+
+.my-certificates-list,
+.my-projects-list {
+  counter-reset: num;
+  padding: 0 0 0 0;
+}
+.my-certificates-item,
+.my-projects-item,
+.my-certificates-bracket,
+.my-projects-bracket {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 20px;
+}
+.my-certificates-text,
+.my-projects-text {
+  margin-left: 0px;
+}
+.my-certificates-text-first,
+.my-projects-text-first {
+  margin-left: 3px;
+}
+.my-certificates-text,
+.my-projects-text,
+.my-certificates-link,
+.my-projects-link {
+  font-size: 11px;
+  line-height: 20px;
+}
+.my-work-experience-duties {
+  width: 100%;
+}
+
+
+
+.my-photo {
+  /* margin: 0px 10px; */
+  /* width: 100%; */
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+}
+
+@media(max-width: 500px) {
+  .my-photo {
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
   }
 }
