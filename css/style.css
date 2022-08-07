@@ -264,7 +264,8 @@ body {
 }
 
 .telegram {
-  background: url(/img/telegram-icon-2.png) no-repeat 50% 50%;
+  background: url(/img/telegram-icon-1.png) no-repeat 50% 50%;
+  background-size: 25px 25px;
   display: block;
   width: 25px;
   height: 25px;
@@ -272,7 +273,36 @@ body {
 }
 
 .telegram:hover {
-  background: url(/img/telegram-icon-1.png) no-repeat 50% 50%;
+  background: url(/img/telegram-icon-2.png) no-repeat 50% 50%;
+  background-size: 25px 25px;
+}
+
+.whatsapp {
+  background: url(/img/whatsapp-icon-1.png) no-repeat 50% 50%;
+  background-size: 25px 25px;
+  display: block;
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+}
+
+.whatsapp:hover {
+  background: url(/img/whatsapp-icon-2.png) no-repeat 50% 50%;
+  background-size: 25px 25px;
+}
+
+.viber {
+  background: url(/img/viber-icon-1.png) no-repeat 50% 50%;
+  background-size: 25px 25px;
+  display: block;
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+}
+
+.viber:hover {
+  background: url(/img/viber-icon-2.png) no-repeat 50% 50%;
+  background-size: 25px 25px;
 }
 
 .contacts-type {
