@@ -252,7 +252,7 @@
 .sidebar {
   background-color: #1e2939;
   width: 370px;
-  padding: 40px 0;
+  /* padding: 40px 0; */
 }
 
 .contacts,
@@ -378,6 +378,7 @@
   .sidebar {
     width: 100%;
     display: flex;
+    padding: 40px 0;
   }
   .my-photo {
     width: 300px;
@@ -416,7 +417,6 @@
 .about-me-description {
   width: 100%;
 }
-
 .my-certificates-list,
 .my-projects-list {
   counter-reset: num;
@@ -449,14 +449,12 @@
 .my-work-experience-duties {
   width: 100%;
 }
-
-
-
 .my-photo {
-  /* margin: 0px 10px; */
-  /* width: 100%; */
   margin: 0 0 0 0;
   padding: 0 0 0 0;
+}
+.sidebar {
+  padding: 0 0;
 }
 }
 
@@ -468,5 +466,8 @@
   }
   .contacts {
     width: 90%;
+  }
+  .sidebar {
+    padding: 0 0;
   }
 }
