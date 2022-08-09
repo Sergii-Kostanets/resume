@@ -454,7 +454,8 @@
   padding: 0 0 0 0;
 }
 .sidebar {
-  padding: 0 0;
+  padding-top: 0;
+  padding-left: 0;
 }
 }
 
@@ -468,6 +469,7 @@
     width: 90%;
   }
   .sidebar {
-    padding: 0 0;
+    padding-top: 0;
+    padding-left: 0;
   }
 }
