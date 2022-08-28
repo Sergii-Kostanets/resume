@@ -206,20 +206,25 @@
 }
 
 .my-education-university {
-  margin: 10px 0 0 0;
+  margin: 15px 0 0 0;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
 }
 
-.my-education-speciality {
+.my-education-speciality,
+.my-education-speciality-link {
   margin: 10 0 0 0;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 17px;
   color: #000000;
+}
+
+.my-education-speciality-link:hover {
+  text-decoration: none;
 }
 
 .my-education-period {
