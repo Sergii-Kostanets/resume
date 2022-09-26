@@ -278,18 +278,50 @@
 
 /* Contacts */
 
+.cellphone {
+  margin-top: 10px;
+}
+
 .cellphone,
 .irish-cellphone {
   display: flex;
   flex-direction: row;
 }
 
+.cellphone-logo {
+  background: url(https://cdn-icons-png.flaticon.com/512/197/197572.png) no-repeat 50% 50%;
+}
+
+.irish-cellphone-logo {
+  background: url(https://cdn-icons-png.flaticon.com/512/197/197567.png) no-repeat 50% 50%;
+}
+
+.cellphone-logo,
+.irish-cellphone-logo {
+  background-size: 21px 21px;
+  width: 22px;
+  height: 27px;
+  margin-right: 5px;
+}
+
+.email {
+  display: flex;
+}
+
+.email-logo {
+  background: url(https://www.freepnglogos.com/uploads/logo-gmail-png/logo-gmail-png-for-gmail-email-client-mac-app-store-16.png) no-repeat 50% 50%;
+  background-size: 21px 21px;
+  width: 22px;
+  height: 29px;
+  margin-right: 5px;
+}
+
 .telegram {
   background: url(https://cdn-icons-png.flaticon.com/512/2111/2111646.png) no-repeat 50% 50%;
   background-size: 21px 21px;
   display: block;
-  width: 21px;
-  height: 21px;
+  width: 22px;
+  height: 27px;
   margin-left: 5px;
 }
 
@@ -302,8 +334,8 @@
   background: url(https://i.postimg.cc/wxsvYMhj/whatsapp-icon-1.png) no-repeat 50% 50%;
   background-size: 21px 21px;
   display: block;
-  width: 21px;
-  height: 21px;
+  width: 22px;
+  height: 27px;
   margin-left: 5px;
 }
 
@@ -316,8 +348,8 @@
   background: url(https://i.postimg.cc/Z9B4qH5q/viber-icon-1.png) no-repeat 50% 50%;
   background-size: 21px 21px;
   display: block;
-  width: 21px;
-  height: 21px;
+  width: 22px;
+  height: 27px;
   margin-left: 5px;
 }
 
