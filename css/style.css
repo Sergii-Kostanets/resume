@@ -332,7 +332,8 @@
 }
 
 .whatsapp {
-  background: url(https://i.postimg.cc/wxsvYMhj/whatsapp-icon-1.png) no-repeat 50% 50%;
+  /* background: url(https://i.postimg.cc/wxsvYMhj/whatsapp-icon-1.png) no-repeat 50% 50%; */
+  background: url(../docs/ico/whatsapp-icon-1.png) no-repeat 50% 50%;
   background-size: 21px 21px;
   display: block;
   width: 22px;
@@ -341,7 +342,8 @@
 }
 
 .whatsapp:hover {
-  background: url(https://i.postimg.cc/7Z6Q55HD/whatsapp-icon-2.png) no-repeat 50% 50%;
+  /* background: url(https://i.postimg.cc/7Z6Q55HD/whatsapp-icon-2.png) no-repeat 50% 50%; */
+  background: url(../docs/ico/whatsapp-icon-2.png) no-repeat 50% 50%;
   background-size: 21px 21px;
 }
 
