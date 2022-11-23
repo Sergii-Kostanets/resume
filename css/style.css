@@ -71,7 +71,8 @@
 /* My certificates */
 
 .my-certificates,
-.my-projects {
+.my-projects,
+.my-education {
   margin-bottom: 50px;
 }
 
@@ -404,7 +405,7 @@
 
 /* Adaptive */
 
-@media(max-width: 1200px) {
+@media(max-width: 1240px) {
   .main-conteiner {
     display: block;
     width: 100%;
@@ -435,7 +436,7 @@
   }
 }
 
-@media(max-width: 947px) {
+@media(max-width: 970px) {
   .sidebar {
     display: block;
   }
