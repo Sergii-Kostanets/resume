@@ -70,6 +70,10 @@
 
 /* My certificates */
 
+.my-certificates {
+  display: none;
+}
+
 .my-certificates,
 .my-projects,
 .my-education {
@@ -372,7 +376,8 @@
   margin-right: 5px;
 }
 
-.contacts-link {
+.contacts-link,
+.tech-skills-item-link {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -381,7 +386,8 @@
   text-decoration-line: underline;
 }
 
-.contacts-link:hover {
+.contacts-link:hover,
+.tech-skills-item-link:hover {
   color: #ffffff;
 }
 
@@ -391,6 +397,15 @@
 .soft-skills-list {
   margin: 0 0 0 0;
   padding: 0 0 0 17px;
+}
+
+/* .tech-skills-item {
+  display: flex;
+} */
+
+.tech-skills-item-certificates {
+  margin-left: auto;
+  margin-right: 30px;
 }
 
 .tech-skills-item,
@@ -405,6 +420,11 @@
   font-size: 14px;
   line-height: 24px;
   color: #ffffff;
+}
+
+.tech-skills-item-bracket {
+  color: #8e949c;
+  font-weight: bold;
 }
 
 /* Adaptive */
@@ -425,22 +445,37 @@
   .my-photo {
     width: 300px;
     margin-left: 40px;
+    height: fit-content;
   }
   .contacts {
     width: 427px;
     margin-left: 40px;
   }
+  .my-photo-contacts {
+    width: 34%;
+  }
+  .skills {
+    display: flex;
+    /* width: 66%; */
+  }
   .tech-skills,
   .soft-skills {
-    margin-left: 20px;
-    width: 200px;
+    margin-left: 50px;
+    width: 50%;
   }
+  /* .tech-skills-item {
+    display: block;
+  } */
   .soft-skills {
     margin-right: 10px;
   }
 }
 
 @media(max-width: 970px) {
+  .my-photo-contacts {
+      display: flex;
+      width: 100%;
+  }
   .sidebar {
     display: block;
   }
@@ -450,6 +485,9 @@
     margin-top: 50px;
     margin-left: 40px;
   }
+  /* .tech-skills-item {
+    display: block;
+  } */
 }
 
 @media(max-width: 800px) {
@@ -501,6 +539,15 @@
 }
 }
 
+@media(max-width: 630px) {
+  .my-photo-contacts {
+    display: block;
+  }
+  .skills {
+    display: block;
+  }
+}
+
 @media(max-width: 500px) {
   .my-photo {
     width: 100%;
@@ -513,5 +560,11 @@
   .sidebar {
     padding-top: 0;
     padding-left: 0;
+  }
+  .contacts,
+  .tech-skills,
+  .soft-skills {
+    width: 90%;
+    margin: auto;
   }
 }
