@@ -287,10 +287,19 @@
   margin-top: 10px;
 }
 
+.git,
 .cellphone,
 .irish-cellphone {
   display: flex;
   flex-direction: row;
+}
+
+.git-logo {
+  background: url(https://cdn-icons-png.flaticon.com/512/733/733553.png) no-repeat 50% 50%;
+}
+
+.git-logo-2 {
+  background: url(https://cdn-icons-png.flaticon.com/512/270/270798.png) no-repeat 50% 50%;
 }
 
 .cellphone-logo {
@@ -301,6 +310,8 @@
   background: url(https://cdn-icons-png.flaticon.com/512/197/197567.png) no-repeat 50% 50%;
 }
 
+.git-logo,
+.git-logo-2,
 .cellphone-logo,
 .irish-cellphone-logo {
   background-size: 21px 21px;
