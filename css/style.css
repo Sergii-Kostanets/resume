@@ -461,17 +461,23 @@
     width: 300px;
     margin-left: 40px;
     height: fit-content;
+    object-fit: cover;
   }
   .contacts {
-    width: 427px;
+    width: 34%;
     margin-left: 40px;
   }
   .my-photo-contacts {
     width: 34%;
+    text-align: center;
+  }
+  .my-photo{
+    margin-left: auto;
+    margin-right: auto;
   }
   .skills {
     display: flex;
-    /* width: 66%; */
+    width: 66%;
   }
   .tech-skills,
   .soft-skills {
